@@ -1,8 +1,11 @@
 import sys
 sys.path.insert(0, './libs')
-import helper
+import helper as h
 from helper import greeting
+import numpy as np
 
-print(helper.greeting('Tristan','Mouritsen'))
+num_range = np.arange(16)
+
+print(h.greeting('Tristan','Mouritsen'))
 
 # here's a commment
